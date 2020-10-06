@@ -1,12 +1,36 @@
-#search {
+#searchContainer {
     background-color: red;
     padding-top: 0%;
 }
 
-#weather {
+#weatherContainer {
     background-color: blue;
 }
 
-#forecast {
+#forecastContainer {
     background-color: yellow;
+}
+
+#cityInput {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 65%;
+    background: #f1f1f1;
+}
+
+#btn {
+    width: 15%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #0b7dda;
 }
