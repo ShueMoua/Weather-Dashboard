@@ -1,46 +1,12 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+#search {
+    background-color: red;
+    padding-top: 0%;
 }
 
-header {
-    text-align: center;
-    color: white;
-    background: rgb(68, 68, 68);
-    padding: 10px;
-    font-size: 25px;
+#weather {
+    background-color: blue;
 }
 
-aside {
-    margin-right: 20px;
-    padding: 0px;
-    clear: both;
-    float: left;
-    width: 25%;
-    height: 100%;
-    background-color: #e6e3e3;
-}
-
-.search {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    margin: 2% 0% 4% 2%;
-    float: left;
-    width: 70%;
-    background: #f1f1f1;
-}
-
-.btn {
-    float: left;
-    width: 10%;
-    padding: 10px;
-    margin: 2% 0% 4% 0%;
-    background: #2196F3;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
+#forecast {
+    background-color: yellow;
 }
