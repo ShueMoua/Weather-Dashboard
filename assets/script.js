@@ -115,10 +115,12 @@ function displayForecast(userInput) {
         console.log(data);
         var forecast = data.list
         $("#forecastContainer").empty()
+
+
         for (var i = 0; i < forecast.length; i = i + 8) {
             $("#forecastContainer").append(`<div class='card'>
            <p>${forecast[i].dt}</p>
-           <img src ="" />
+           <img src = "https://openweathermap.org/img/wn/main.forecast[0]@2x.png"/>
            <p>Temp:${forecast[i].main.temp}</p>
            <p>Humidity: ${forecast[i].main.humidity}</p></div>`)
             console.log(i)
